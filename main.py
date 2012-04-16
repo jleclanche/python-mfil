@@ -12,6 +12,8 @@ Version 2:
  - Multiple identical keys
 """
 
+__version__ = "1.0"
+
 SEEK_CUR = 1
 
 class MFILError(Exception):
