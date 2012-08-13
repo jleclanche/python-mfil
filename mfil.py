@@ -29,7 +29,7 @@ class MFIL(object):
 
 	def __init__(self, file):
 		if isinstance(file, str):
-			file = open(file, "r")
+			file = open(file, "rb")
 		self.file = file
 		key, value = self.parseKey(), self.parseValue()
 		if key == "version":
